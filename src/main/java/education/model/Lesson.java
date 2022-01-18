@@ -1,14 +1,15 @@
 package education.model;
 
+import com.sun.xml.internal.ws.developer.Serialization;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.io.Serializable;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Lesson implements Serializable {
+@Serialization
+public class Lesson {
     private String name;
     private String duration;
     private String lecturerName;

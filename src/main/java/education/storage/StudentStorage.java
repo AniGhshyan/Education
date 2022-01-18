@@ -3,7 +3,6 @@ import education.model.Lesson;
 import education.model.Student;
 import education.util.FileUtil;
 
-import java.io.File;
 import java.util.LinkedList;
 import java.util.List;
 
