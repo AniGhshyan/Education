@@ -37,9 +37,6 @@ public class LessonStorage {
             }
         }
     }
-private void seriallize(){
-    FileUtil.serializeLessons(lessons);
-}
     private void serialize() {
         FileUtil.serializeLessons(lessons);
     }
